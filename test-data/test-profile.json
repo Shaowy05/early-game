@@ -1,0 +1,35 @@
+{
+    "name": {
+        "first": "John",
+        "middle": "Jameson",
+        "last": "Doe"
+    },
+    "school": "The Ecclesbourne School",
+    "subjects": [
+        {
+            "name": "Mathematics",
+            "grade": "A*",
+            "attained": false,
+            "board": "AQA"
+        },
+        {
+            "name": "Further Mathematics",
+            "grade": "A",
+            "attained": false,
+            "board": "AQA"
+        },
+        {
+            "name": "Physics",
+            "grade": "A*",
+            "attained": false,
+            "board": "Edexcel"
+        },
+        {
+            "name": "Computer Science",
+            "grade": "A*",
+            "attained": false,
+            "board": "AQA"
+        }
+    ],
+    "rating": 100
+}

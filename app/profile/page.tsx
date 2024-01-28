@@ -1,4 +1,7 @@
-import { useContext } from 'react';
+import ProfileCard from '../ui/profile/profile-card';
+
+// Imports for Testing Data
+import johnDoe from '@/test-data/test-profile';
 
 export default function Profile() {
     // const user = useContext();
@@ -6,7 +9,7 @@ export default function Profile() {
     return(
         <>
             <div>
-                <p></p>
+                <ProfileCard profile={johnDoe}/>
             </div>
         </>
     )
